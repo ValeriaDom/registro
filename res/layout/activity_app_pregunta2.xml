@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    android:orientation="vertical"
+    tools:context=".AppPregunta2" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/et2"
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView2"
+            android:ems="10"
+            android:text="¿órgano de cuerpo qué produce bíllis?"
+            android:textColor="#FF0040"
+            android:textSize="10pt" />
+
+        <Button
+            android:id="@+id/prea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="v"
+            android:text="Riñon" />
+
+        <Button
+            android:id="@+id/preb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F78181"
+            android:onClick="v"
+            android:text="Hígado" />
+
+        <Button
+            android:id="@+id/prec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="v"
+            android:text="Pancreas" />
+
+        <Button
+            android:id="@+id/pred"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F78181"
+            android:onClick="v"
+            android:text="Estomago" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtT1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtT2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtT3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtT4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtT5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtT6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+</LinearLayout>

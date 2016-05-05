@@ -1,0 +1,137 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6E6"
+    android:orientation="vertical"
+    tools:context=".registro" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#0000FF"
+        android:text="Registrarse" />
+
+    <TextView
+        android:id="@+id/txtnombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Nombre" />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="20sp"
+        android:layout_margin="2sp"
+        android:layout_weight="27.83"
+        android:background="#BDBDBD"
+        android:gravity="center"
+        android:hint="Nombre"
+        android:maxLength="20"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtcontrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="7.88"
+        android:gravity="center"
+        android:text="Contraseña" />
+
+    <EditText
+        android:id="@+id/apellido"
+        android:layout_width="match_parent"
+        android:layout_height="20sp"
+        android:layout_margin="2sp"
+        android:layout_weight="38.94"
+        android:background="#BDBDBD"
+        android:gravity="center"
+        android:hint="Contraseña"
+        android:maxLength="20"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtcorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Correo Electronico" />
+
+    <EditText
+        android:id="@+id/edad"
+        android:layout_width="match_parent"
+        android:layout_height="20sp"
+        android:layout_margin="2sp"
+        android:layout_weight="30.97"
+        android:background="#BDBDBD"
+        android:gravity="center"
+        android:hint="Correo"
+        android:maxLength="20"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/txtempresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Empresa" />
+
+    <EditText
+        android:id="@+id/empresa"
+        android:layout_width="match_parent"
+        android:layout_height="20sp"
+        android:layout_margin="2sp"
+        android:layout_weight="35.16"
+        android:background="#BDBDBD"
+        android:gravity="center"
+        android:hint="Empresa"
+        android:maxLength="20"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/insertar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:maxLength="20"
+            android:onClick="Insertar"
+            android:text="Insertar" />
+
+        <Button
+            android:id="@+id/ver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:onClick="Ver"
+            android:text="Ver"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tver"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
+      
+
+        
