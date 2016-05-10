@@ -27,7 +27,9 @@ public class AppExamen extends Activity implements OnClickListener {
 		
 		
 		insertar = (Button)findViewById(R.id.insertar);
+		insertar.setOnClickListener(this);
         ver = (Button)findViewById(R.id.ver);
+        ver.setOnClickListener(this);
         eNombre = (EditText)findViewById(R.id.nombre);
         eContrasena = (EditText)findViewById(R.id.apellido);
         eCorreo = (EditText)findViewById(R.id.correo);
@@ -58,6 +60,25 @@ public class AppExamen extends Activity implements OnClickListener {
 	 	   p.abrirSqlite();
 	 	   p.insertar(nombre, contrasena, correo, empresa);
 	 	   p.cerrarSqlite();
+	 	   
+	 	  int d;
+			d=v.getId();
+			switch(d){
+			
+			case R.id.insertar:
+				Intent inte = new Intent();
+				inte.setAction(Intent.ACTION_MAIN);
+				inte.addCategory(Intent.CATEGORY_LAUNCHER);
+				inte.setComponent(new ComponentName(AppExamen.this,AppPregunta2.class));
+				Bundle bu = new Bundle();
+			   // bu.putString("nombre", txt1.getText().toString());
+			   // bu.putString("carrera", txt2.getText().toString());
+			   // bu.putString("puntaje", txt3.getText().toString());
+			   // bu.putString("tipo", txt4.getText().toString());
+			    inte.putExtras(bu);
+				startActivity(inte);
+				break;
+			}
 	    }
 	    public void Ver(View v){
 	    	Personas p = new Personas(AppExamen.this);

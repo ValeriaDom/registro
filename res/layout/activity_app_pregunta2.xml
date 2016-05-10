@@ -32,45 +32,11 @@
             android:textSize="20px"
             android:textStyle="bold" />
 
-        <EditText
-            android:id="@+id/nombre"
-            android:layout_width="120dp"
-            android:layout_height="45sp"
-            android:layout_alignParentRight="true"
-            android:layout_below="@+id/et2"
-            android:layout_margin="2sp"
-            android:layout_marginTop="91dp"
-            android:layout_weight="27.83"
-            android:background="#BDBDBD"
-            android:ems="10"
-            android:gravity="center"
-            android:hint="Nombre"
-            android:maxLength="20"
-            android:textSize="15sp" >
-
-            <requestFocus />
-        </EditText>
-
-        <EditText
-            android:id="@+id/nombre"
-            android:layout_width="match_parent"
-            android:layout_height="20sp"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:layout_margin="2sp"
-            android:layout_weight="27.83"
-            android:background="#BDBDBD"
-            android:ems="10"
-            android:gravity="center"
-            android:hint="Nombre"
-            android:maxLength="20"
-            android:textSize="15sp" />
-
         <TextView
             android:id="@+id/et3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/nombre"
+            android:layout_above="@+id/contrasena"
             android:layout_alignParentLeft="true"
             android:ems="10"
             android:gravity="center"
@@ -81,18 +47,49 @@
 
         <Button
             android:id="@+id/prea"
-            android:layout_width="130dp"
-            android:layout_height="50dp"
-            android:layout_alignRight="@+id/nombre"
-            android:layout_below="@+id/nombre"
-            android:layout_marginRight="75dp"
-            android:layout_marginTop="48dp"
-            android:background="#3b5998"
-            android:onClick="v"
-            android:text="Inicia Sesión"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/contrasena"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="43dp"
             android:textColor="#E6E6E6"
-            android:textSize="15px"
-            android:textStyle="bold" />
+            android:background="#3b5998"
+            android:textStyle="bold"
+            android:textSize="20px"
+            android:onClick="v"
+            android:text="Inicia Sesión" />
+
+        <EditText
+            android:id="@+id/contrasena"
+            android:layout_width="200dp"
+            android:layout_height="42dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="2sp"
+            android:background="#f7f7f7"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Contraseña"
+            android:maxLength="20"
+            android:textSize="15sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="200dp"
+            android:layout_height="42dp"
+            android:layout_alignLeft="@+id/contrasena"
+            android:layout_below="@+id/et2"
+            android:layout_margin="2sp"
+            android:layout_marginLeft="14dp"
+            android:background="#f7f7f7"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Nombre"
+            android:maxLength="20"
+            android:textSize="15sp" />
 
     </RelativeLayout>
 

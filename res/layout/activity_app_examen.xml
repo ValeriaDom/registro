@@ -1,6 +1,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:background="#E6E6E6"
     android:orientation="vertical"
@@ -17,7 +17,7 @@
 
             <Button
                 android:id="@+id/button1"
-                android:layout_width="match_parent"
+                android:layout_width="326dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentRight="true"
@@ -42,7 +42,7 @@
                 android:layout_height="45sp"
                 android:layout_margin="2sp"
                 android:layout_marginRight="300sp"
-                android:layout_weight="29.23"
+                android:layout_weight="25.40"
                 android:background="#f7f7f7"
                 android:ems="10"
                 android:gravity="center"
@@ -139,8 +139,11 @@
                     android:background="#3b5998"
                     android:gravity="center"
                     android:maxLength="20"
-                    android:onClick="Insertar"
-                    android:text="Insertar" />
+                    android:onClick="Registrar"
+                    android:text="Insertar"
+                    android:textColor="#E6E6E6"
+                    android:textSize="20px"
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/ver"
