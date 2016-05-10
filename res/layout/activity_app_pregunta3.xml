@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    android:orientation="vertical"
+    tools:context=".AppPregunta3" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+     
+
+        <TextView
+            android:id="@+id/et2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView2"
+            android:ems="10"
+            android:text="¿Década en la qué se terminó de construir el Epire State en Nueva York?"
+            android:textColor="#FF0040"
+            android:textSize="10pt" />
+
+        <Button
+            android:id="@+id/preuno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="v"
+            android:text="20s" />
+
+        <Button
+            android:id="@+id/predos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="v"
+            android:background="#F78181"
+            android:text="50s" />
+
+        <Button
+            android:id="@+id/pretres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="v"
+            android:text="40s" />
+
+        <Button
+            android:id="@+id/precuatro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="v"
+            android:background="#F78181"
+            android:text="30s" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tT1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tT2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tT3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tT4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tT5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tT6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tT7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tT8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+</LinearLayout>

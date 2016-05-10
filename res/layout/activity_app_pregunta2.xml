@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6E6"
+    android:orientation="vertical"
+    tools:context=".AppPregunta2" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3b5998"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/et2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button1"
+            android:layout_marginTop="37dp"
+            android:ems="10"
+            android:gravity="center"
+            android:text="Nombre"
+            android:textColor="#3b5998"
+            android:textSize="20px"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="120dp"
+            android:layout_height="45sp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/et2"
+            android:layout_margin="2sp"
+            android:layout_marginTop="91dp"
+            android:layout_weight="27.83"
+            android:background="#BDBDBD"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Nombre"
+            android:maxLength="20"
+            android:textSize="15sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="20sp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="2sp"
+            android:layout_weight="27.83"
+            android:background="#BDBDBD"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Nombre"
+            android:maxLength="20"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/et3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/nombre"
+            android:layout_alignParentLeft="true"
+            android:ems="10"
+            android:gravity="center"
+            android:text="Contraseña"
+            android:textColor="#3b5998"
+            android:textSize="20px"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/prea"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_alignRight="@+id/nombre"
+            android:layout_below="@+id/nombre"
+            android:layout_marginRight="75dp"
+            android:layout_marginTop="48dp"
+            android:background="#3b5998"
+            android:onClick="v"
+            android:text="Inicia Sesión"
+            android:textColor="#E6E6E6"
+            android:textSize="15px"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtT1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtT2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtT3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtT4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtT5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtT6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+</LinearLayout>

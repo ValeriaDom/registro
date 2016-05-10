@@ -1,0 +1,164 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6E6"
+    android:orientation="vertical"
+    tools:context=".registro" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="474dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="#3b5998"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/txtnombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Nombre"
+                android:textColor="#3b5998"
+                android:textSize="20px"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/nombre"
+                android:layout_width="match_parent"
+                android:layout_height="45sp"
+                android:layout_margin="2sp"
+                android:layout_marginRight="300sp"
+                android:layout_weight="29.23"
+                android:background="#f7f7f7"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Nombre"
+                android:maxLength="20"
+                android:textSize="15sp" >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/txtcontrasena"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_weight="7.88"
+                android:gravity="center"
+                android:text="Contraseña"
+                android:textColor="#3b5998"
+                android:textSize="20px"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/apellido"
+                android:layout_width="match_parent"
+                android:layout_height="45sp"
+                android:layout_margin="2sp"
+                android:layout_weight="38.94"
+                android:background="#f7f7f7"
+                android:gravity="center"
+                android:hint="Contraseña"
+                android:maxLength="20"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtcorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Correo Electronico"
+                android:textColor="#3b5998"
+                android:textSize="20px"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/correo"
+                android:layout_width="match_parent"
+                android:layout_height="45sp"
+                android:layout_margin="2sp"
+                android:layout_weight="30.97"
+                android:background="#f7f7f7"
+                android:gravity="center"
+                android:hint="Correo"
+                android:inputType="textEmailAddress"
+                android:maxLength="20"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtempresa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Empresa"
+                android:textColor="#3b5998"
+                android:textSize="20px"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/empresa"
+                android:layout_width="match_parent"
+                android:layout_height="45sp"
+                android:layout_margin="2sp"
+                android:layout_weight="35.16"
+                android:background="#f7f7f7"
+                android:gravity="center"
+                android:hint="Empresa"
+                android:inputType="textEmailAddress"
+                android:maxLength="20"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/insertar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#3b5998"
+                    android:gravity="center"
+                    android:maxLength="20"
+                    android:onClick="Insertar"
+                    android:text="Insertar" />
+
+                <Button
+                    android:id="@+id/ver"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#f7f7f7"
+                    android:onClick="Ver"
+                    android:text="Ver"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tver"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="47.54" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
