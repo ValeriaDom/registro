@@ -125,7 +125,16 @@
                 android:maxLength="20"
                 android:textSize="15sp" />
 
-            <LinearLayout
+            <TextView
+                android:id="@+id/tTu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -133,8 +142,11 @@
 
                 <Button
                     android:id="@+id/insertar"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="75dp"
                     android:layout_weight="1"
                     android:background="#3b5998"
                     android:gravity="center"
@@ -144,17 +156,7 @@
                     android:textColor="#E6E6E6"
                     android:textSize="20px"
                     android:textStyle="bold" />
-
-                <Button
-                    android:id="@+id/ver"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="#f7f7f7"
-                    android:onClick="Ver"
-                    android:text="Ver"
-                    android:textSize="20sp" />
-            </LinearLayout>
+            </RelativeLayout>
 
             <TextView
                 android:id="@+id/tver"
